@@ -1,0 +1,25 @@
+name: 设计想法
+description: 记录卡牌、Boss、时间机制或叙事想法
+title: "[Design] "
+labels: ["design"]
+body:
+  - type: textarea
+    id: mechanic
+    attributes:
+      label: 机制描述
+    validations:
+      required: true
+  - type: textarea
+    id: decision
+    attributes:
+      label: 希望制造的决策
+      description: 玩家需要权衡什么？
+    validations:
+      required: true
+  - type: textarea
+    id: time-interaction
+    attributes:
+      label: 与时间系统的关系
+      description: 说明耗时、时间缩放、回合结算或 Boss 时序。
+    validations:
+      required: true

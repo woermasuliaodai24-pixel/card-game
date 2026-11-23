@@ -1,1 +1,13 @@
 .worktrees/
+demo/node_modules/
+demo/dist/
+demo/coverage/
+demo/.npm-cache/
+*.tsbuildinfo
+.tmp/
+.env
+.env.*
+!.env.example
+.ai/**/*.jsonl
+.ai/**/*.log
+.ai/**/transcripts/

@@ -1,0 +1,25 @@
+name: 功能建议
+description: 提议新的玩家能力或开发功能
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: player-value
+    attributes:
+      label: 玩家价值
+      description: 这个功能会让玩家获得什么新决策或更清晰的体验？
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 建议方案
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      description: 用可验证的条目描述完成条件。
+    validations:
+      required: true
